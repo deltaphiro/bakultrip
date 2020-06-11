@@ -1,0 +1,91 @@
+#name{
+    margin-top: 100px;
+
+}
+#name 
+
+.text5 i{
+    color:#C47312;
+}
+
+#name .text5{
+    padding: 5px 0px;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.imgkecil{
+    display: flex;
+    justify-content: space-between;
+}
+.imgkecil img{
+    padding: 10px 0px;
+    width: 10%;
+}
+
+.description{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 20px rgba(105, 105, 105, 0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+}
+
+.description .textp{
+    padding: 20px;
+}
+
+.description table tr:nth-child(even) {
+    background-color : #FBFBFB;
+  }
+.description table tr:nth-child(odd) {
+   background-color: #fff;
+  }
+
+table {
+    margin: 0px 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #959595;
+  }
+
+th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  .review{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 20px rgba(105, 105, 105, 0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+}
+
+.review img{
+    border-radius: 50%;
+    height: 80px;
+    margin: 20px;
+}
+
+.review i{
+    color: #C47312;
+    letter-spacing: 3px;
+}
+.rev{
+    margin: 20px;
+}
+
+.from{
+    background: #FFFFFF;
+    border: 2px solid #F1F1F1;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.from .text4{
+    padding-top: 10px;
+}
+.from .tombol{
+    font-weight: 700;
+}

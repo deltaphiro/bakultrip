@@ -273,6 +273,14 @@ a:hover, a:active, a:focus {
   font-family: "Montserrat", sans-serif;
   color: #363636;
 }
+.text2{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 54px;
+  font-family: "Montserrat", sans-serif;
+  color: #363636;
+}
 .text4{
   font-weight: 700;
   font-size: 18px;
