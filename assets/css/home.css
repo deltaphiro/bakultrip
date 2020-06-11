@@ -1,0 +1,197 @@
+#hero {
+    position: relative;
+    border-radius: 8px;
+    margin-top: 80px;
+  
+  }
+  
+  @media (max-width: 767px) {
+    #hero {
+      height: auto;
+      padding: 80px 0 60px 0;
+    }
+    #hero .container {
+      height: auto !important;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    #hero .intro {
+      padding-top: 80px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #hero .intro {
+      text-align: center;
+      padding-top: 40px;
+    }
+  }
+  
+  #hero .intro h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #C47312;
+  }
+  
+  @media (max-width: 767px) {
+    #hero .intro h2 {
+      font-size: 34px;
+      margin-bottom: 30px;
+    }
+  }
+  #hero .content{
+    background-color: #D6EFFA;
+    height: 480px;
+    background-image: url(../img/header.png);
+    background-size: cover;
+  }
+  
+  #hero .intro  {
+    padding-top: 120px;
+    text-align: center;
+    margin-top: 60px;
+    border-radius: 4px;
+    transition: 0.5s;
+  
+  }
+  #hero .search2  {
+    border-radius: 10px 0px 0px 10px;
+    transition: 0.5s;
+    margin-left: 100px;
+    margin-top: 200px;
+    height:60px;
+    width: 70%;
+    padding: 0px 20px;
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+  }
+  
+  .submit {
+    border-radius: 0px 10px 10px 0px;
+    margin-top: 200px;
+    font-size:14px;
+    border:none;
+    width: 10%;
+    font-weight:600;
+    background: #396997;
+    color:#fff;
+    transition: all 100ms ease-in-out;
+  }
+  
+  
+  .submit:hover {
+    background: black;
+  }
+  
+  
+  #services {
+  
+    padding: 60px 0 40px 0;
+  }
+  
+  #services .box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 70px 0px;
+    background: #fff;
+    box-shadow: 0px 20px 40px rgba(204, 204, 204, 0.67);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  #services .box:hover {
+    transform: scale(1.1);
+  }
+  
+  #services .icon img {
+    margin: 0 auto 5px auto;
+    padding-top: 12px;
+  
+  }
+  
+  #product {
+    padding: 60px 0 40px 0;
+  }
+  
+  #product .card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 60px;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+    text-align: left;
+  
+  }
+  #product .card-name{
+    font-weight: 700;
+  }
+  
+  #product .kompetensi, #product .rating{
+      font-size: small;
+  }
+  
+  #product .btn{
+    width: 60%;
+    font-size: small;
+  }
+  
+  .product-header .text3 {
+    text-align: center;
+    position: relative;
+  }
+  
+
+  .product-header .textp {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
+    width: 50%;
+  }
+  
+  @media (max-width: 767px) {
+    .product-header .textp {
+      width: 100%;
+    }
+  }
+  
+  #promotion2{
+    padding: 50px 100px;
+    color: black;
+  }
+  #promotion2 img{
+    width: 50%;
+  }
+
+  #promotion2 .desc{
+  padding: 10px 0px;
+  padding-right: 100px;
+  }
+  
+  
+  #promotion{
+    background-image: url(../img/promotion.png);
+    margin-top: 50px;
+    padding: 100px 100px;
+    color: #fff;
+   
+  }
+  #promotion .title{
+    font-weight: 700;
+    font-size: 50px;
+  }
+  
+  #promotion .desc{
+  padding: 30px 0px;
+  padding-right: 500px;
+  font-weight: 500;
+  }
+
+  
+  

@@ -2,7 +2,6 @@ body {
   background: #fff;
   color: #444;
   font-family: "Montserrat", sans-serif;
-
 }
 
 
@@ -266,226 +265,83 @@ a:hover, a:active, a:focus {
   color: #fff;
 }
 
-
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
-#hero {
-  position: relative;
-  border-radius: 8px;
-  margin-top: 80px;
-
-}
-
-@media (max-width: 767px) {
-  #hero {
-    height: auto;
-    padding: 80px 0 60px 0;
-  }
-  #hero .container {
-    height: auto !important;
-  }
-}
-
-@media (min-width: 992px) {
-  #hero .intro {
-    padding-top: 80px;
-  }
-}
-
-@media (max-width: 767px) {
-  #hero .intro {
-    text-align: center;
-    padding-top: 40px;
-  }
-}
-
-#hero .intro h2 {
+.text3{
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 40px;
   line-height: 54px;
+  font-family: "Montserrat", sans-serif;
+  color: #363636;
+}
+.text4{
+  font-weight: 700;
+  font-size: 18px;
+  color: #363636;
+}
+.text5{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #959595;
+}
+.textp{
+  font-size: 15px;
+  color: #535074;
+}
+a{
+  color: #363636;
+}
+.tombol {
+  position: relative;
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-weight: normal;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.tombol.orange-1:hover {
+  background-color: rgb(209, 135, 44) ;
+  color: white;
+  border: solid 3px rgb(209, 135, 44);
+}
+.tombol.orange-1{
+  border: 2px solid #C47312;
   color: #C47312;
 }
 
-@media (max-width: 767px) {
-  #hero .intro h2 {
-    font-size: 34px;
-    margin-bottom: 30px;
-  }
+.tombol.blue-2:hover {
+  border: 2px solid #396997;
+  background-color: white;
+  color: #396997;
 }
-#hero .content{
-  background-color: #D6EFFA;
-  height: 480px;
-  background-image: url(../img/header.png);
-  background-size: cover;
+.tombol.blue-2{
+  background-color: #367ab9 ;
+  color: white;
+  border: solid 3px #367ab9;
 }
 
-#hero .intro  {
-  padding-top: 120px;
-  text-align: center;
-  margin-top: 60px;
-  border-radius: 4px;
-  transition: 0.5s;
-
+.tombol.blue-1:hover {
+  background-color: #367ab9 ;
+  color: white;
+  border: solid 3px #367ab9 ;
 }
-#hero .search2  {
-  border-radius: 10px 0px 0px 10px;
-  transition: 0.5s;
-  margin-left: 100px;
-  margin-top: 200px;
-  height:60px;
-  width: 70%;
-  padding: 0px 20px;
-  background: #FFFFFF;
-  border: 1px solid #EBEBEB;
-  box-sizing: border-box;
+.tombol.blue-1{
+  border: 2px solid #396997;
+  color: #396997;
 }
-
-.submit {
-  border-radius: 0px 10px 10px 0px;
-  margin-top: 200px;
-  font-size:14px;
-  border:none;
-  width: 10%;
-  font-weight:600;
-  background: #396997;
-  color:#fff;
-  transition: all 100ms ease-in-out;
+.tombol.orange-2:hover {
+  border: 2px solid #C47312;
+  background-color: white;
+  color: #C47312;
+}
+.tombol.orange-2{
+  background-color: rgb(209, 135, 44) ;
+  color: white;
+  border: solid 3px rgb(209, 135, 44);
 }
 
-
-.submit:hover {
-  background: black;
-}
-
-
-#services {
-
-  padding: 60px 0 40px 0;
-}
-
-#services .box {
-  padding: 30px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  margin: 70px 0px;
-  background: #fff;
-  box-shadow: 0px 20px 40px rgba(204, 204, 204, 0.67);
-  transition: all 0.3s ease-in-out;
-  text-align: center;
-}
-
-#services .box:hover {
-  transform: scale(1.1);
-}
-
-#services .icon img {
-  margin: 0 auto 5px auto;
-  padding-top: 12px;
-
-}
-
-#services .title {
-  font-weight: 700;
-  font-size: 18px;
-}
-
-#services .title a {
-  color: #111;
-}
-
-#services .box:hover .title a {
-  color: #1bb1dc;
-}
-
-#product {
-
-  padding: 60px 0 40px 0;
-}
-
-#product .card {
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  margin-top: 60px;
-  background: #fff;
-  transition: all 0.3s ease-in-out;
-  text-align: left;
-
-}
-#product .card-name{
-  font-weight: 700;
-}
-
-#product .kompetensi, #product .rating{
-    font-size: small;
-}
-#product .btn{
-  width: 60%;
-  font-size: small;
-}
-
-.product-header h3 {
-  font-size: 36px;
-  color: #413e66;
-  text-align: center;
-  font-weight: 700;
-  position: relative;
-  font-family: "Montserrat", sans-serif;
-}
-
-.product-header p {
-  text-align: center;
-  margin: auto;
-  font-size: 15px;
-  padding-bottom: 10px;
-  color: #535074;
-  width: 50%;
-}
-
-@media (max-width: 767px) {
-  .product-header p {
-    width: 100%;
-  }
-}
-
-#promotion2{
-  padding: 50px 100px;
-  color: black;
-}
-#promotion2 img{
-  width: 50%;
-}
-#promotion2 .title{
-  font-weight: 700;
-  font-size: 45px;
-}
-
-#promotion2 .desc{
-padding: 10px 0px;
-padding-right: 100px;
-}
-
-
-#promotion{
-  background-image: url(../img/promotion.png);
-  margin-top: 50px;
-  padding: 100px 100px;
-  color: #fff;
- 
-}
-#promotion .title{
-  font-weight: 700;
-  font-size: 50px;
-}
-
-#promotion .desc{
-padding: 30px 0px;
-padding-right: 500px;
-font-weight: 500;
-}
 
 #footer {
   font-size: 14px;
@@ -502,7 +358,7 @@ font-weight: 500;
   margin-bottom: 30px;
 }
 
-#footer .footer-top .footer-info h3 {
+#footer .text3 {
   font-size: 34px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
@@ -514,7 +370,7 @@ font-weight: 500;
   text-transform: uppercase;
 }
 
-#footer .footer-top .footer-info p {
+#footer .textp {
   font-size: 13px;
   line-height: 24px;
   margin-bottom: 0;
@@ -549,7 +405,7 @@ font-weight: 500;
   }
 }
 
-#footer .footer-top h4 {
+#footer .text4 {
   font-size: 14px;
   font-weight: bold;
   color: white;
@@ -588,7 +444,7 @@ font-weight: 500;
   margin-bottom: 30px;
 }
 
-#footer .footer-top .footer-contact p {
+#footer .textp {
   line-height: 26px;
 }
 
@@ -609,4 +465,3 @@ font-weight: 500;
     transform: rotate(360deg);
   }
 }
-

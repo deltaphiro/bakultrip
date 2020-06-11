@@ -1,0 +1,76 @@
+.banner{
+  background-color: #D6EFFA;
+  height: 700px;
+  background-image: url(../img/whytourleader.png);
+  background-size: cover;
+  margin-top: 100px;
+}
+
+
+.title-header .text3 {
+    padding: 50px 0px;
+    font-size: 36px;
+    color: #413e66;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  @media (max-width: 767px) {
+    .title-header p {
+      width: 100%;
+    }
+  }
+
+#why .row{
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+#why .text4{
+margin: 20px 0;
+}
+
+#kompetensi{
+  margin-left: 30px;
+}
+.text4 img{
+  padding: 10px 30px;
+}
+
+#services{
+  padding: 100px 100px;
+  color: black;
+}
+#services img{
+  width: 50%;
+}
+
+#services .desc{
+padding: 10px 0px;
+padding-right: 100px;
+line-height: 30px;
+}
+
+.number{
+  background-color: #007DFE;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px;
+  font-weight: 500;
+  display:block;
+  margin:auto;
+  text-align:center;
+}
+#hty table{
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+
+#hty img{
+  margin-left: 100px;
+}
+#hty{
+  margin-bottom: 100px;
+}
