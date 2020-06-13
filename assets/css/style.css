@@ -24,7 +24,13 @@ a:hover, a:active, a:focus {
   transition: all 0.5s;
   z-index: 997;
 }
+.nopadding {
 
+  padding: 0 !important;
+
+  margin: 0 !important;
+
+}
 .container {
   width: 100%;
   padding-right: 15px;
@@ -292,6 +298,11 @@ a:hover, a:active, a:focus {
   font-size: 14px;
   line-height: 22px;
   color: #959595;
+}
+.text6{
+  font-weight: 500;
+  font-size: 13px;
+  color: #363636;
 }
 .textp{
   font-size: 15px;
