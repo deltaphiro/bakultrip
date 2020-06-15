@@ -70,8 +70,7 @@
 }
   
   #services {
-  
-    padding: 60px 0 40px 0;
+    padding: 80px 0 24px 0;
   }
   #hero .search2  {
     border-radius: 10px 0px 0px 10px;
@@ -100,7 +99,9 @@
     background: black;
   } 
   #services .box {
-    padding: 30px;
+
+    padding: 10px;
+    margin: 10px 0px;
     position: relative;
     overflow: hidden;
     border-radius: 10px;
@@ -121,8 +122,9 @@
   
   }
   
+  
   #product {
-    padding: 60px 0 40px 0;
+    padding: 80px 0 50px 0
   }
   
   #product .card {
@@ -147,18 +149,32 @@
     width: 60%;
     font-size: small;
   }
+
+  .product-header{
+    margin-bottom: 50px;
+  }
   
   .product-header .text3 {
+    color: #363636;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
     text-align: center;
     position: relative;
   }
   
 
   .product-header .textp {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
     text-align: center;
-    margin: auto;
-    padding-bottom: 10px;
-    width: 50%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #acacac;
+    padding-top: 10px;
+    line-height: 24px;
+    margin-bottom: 24px;
   }
   
   @media (max-width: 767px) {
