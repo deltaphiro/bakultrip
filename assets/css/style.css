@@ -1,7 +1,7 @@
 body {
   background: #fff;
   color: #444;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -55,6 +55,10 @@ a:hover, a:active, a:focus {
 .navbar{
   padding: 15px 0px;
   font-size: 16px;
+  font-weight: 500;
+  color: #363636;
+
+
 }
 #header .logo img {
   padding: 0;
@@ -83,6 +87,7 @@ a:hover, a:active, a:focus {
 
 
 .main-nav, .main-nav * {
+  
   margin: 0;
   padding: 0px 5px;
   list-style: none;
@@ -97,7 +102,7 @@ a:hover, a:active, a:focus {
 .main-nav a {
   display: block;
   position: relative;
-  color: #413e66;
+    color: #363636;
   transition: 0.3s;
 
 }
