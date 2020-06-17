@@ -130,8 +130,7 @@
   #product .card {
     position: relative;
     overflow: hidden;
-    border-radius: 10px;
-    margin-top: 60px;
+    margin: 30px 0px !important;
     background: #fff;
     transition: all 0.3s ease-in-out;
     text-align: left;
@@ -139,8 +138,13 @@
   }
   #product .card-name{
     font-weight: 700;
+    color: #232323;
   }
-  
+  .card-address{
+    font-size: 14px;
+    color: #A0A0A0;
+  }
+
   #product .kompetensi, #product .rating{
       font-size: small;
   }
@@ -215,5 +219,4 @@
   font-weight: 500;
   }
 
-  
   
