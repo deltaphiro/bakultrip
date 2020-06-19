@@ -489,3 +489,15 @@ a{
     transform: rotate(360deg);
   }
 }
+.ribbon{
+background: #fefefe;
+box-shadow: 1px 1px 20px rgba(204, 204, 204, 0.67);
+border-radius: 4px;
+border-left: #396997 solid;
+border-width: 5px;
+padding: 20px;
+margin: 20px 0px;
+font-size: 16px;
+font-weight: 700;
+width: 100%;
+}
