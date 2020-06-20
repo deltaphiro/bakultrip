@@ -1,0 +1,29 @@
+#loginpage{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+input{
+    margin: 10px 0px;
+    padding: 5px;
+    width: 100%;
+}
+button{
+    width: 100%;
+}
+::placeholder{
+    font-size: small;
+}
+
+.socmed{
+    margin: 10px 0px;
+    padding: 10px;
+    width: 48%;
+    background: #fefefe;
+    border: gray thin solid;
+    border-radius: 4px;
+}
+
+.socmed .fa{
+    color: blue;
+    padding: 5px 10px;
+}

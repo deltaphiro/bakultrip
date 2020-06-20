@@ -44,3 +44,7 @@ button{
     width: auto;
     margin: 20px 0px;
 }
+
+#loginpage .fb, #loginpage .google{
+    color:green;
+}
