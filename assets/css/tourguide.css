@@ -113,11 +113,41 @@ margin: 20px 0;
     background: #F8F9FA;
 }
 .reg{
-    background-image: url(../img/promotion.png);
-    height: 100px;
-    text-align: center;
+    background-image: url(../img/promotion.png);    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     line-height: 38px;
     font-weight: 700;
     font-size: 26px;
     color: #FFFFFF;
+}
+
+label{
+    display: block;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #363636;
+}
+
+.formulir{
+background: #fefefe;
+border-radius: 4px;
+padding: 40px;
+padding-left: 60px;
+}
+
+input{
+    color: black;
+    border: #959595 solid thin;
+    border-radius: 4px;
+    padding: 2px 10px;
+    width: 90%;
+   background: transparent;
+}
+
+.syarat{
+    width: 10px;
 }
