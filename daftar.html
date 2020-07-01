@@ -122,61 +122,145 @@
           <div class="ribbon">Unggah Dokumen</div>
         </div>
         <div class="col-9 formulir">
-            <form action="" class="row">
-             <div class="col-4 d-flex flex-column align-items-center">
-               <div class="text4">SKCK</div>
-               <input type="file" class="upload-input">
-               <button class="tombol orange-2">UNGGAH</button>
-             </div>
+          <div class="row">
              <div class="col-4 d-flex flex-column align-items-center">
               <div class="text4">KTP</div>
-              <input type="file">
-              <button class="tombol orange-2">UNGGAH</button>
+              <i class="fa fa-image" style="font-size: 80px; padding: 20px;"></i>
+              <button type="button" class="tombol orange-2" data-toggle="modal" data-target="#exampleModalCenter">
+                  UNGGAH
+              </button>
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+                      <span aria-hidden="true">&times;</span>
+                      </button>
+                      </div>
+                      <div class="modal-body" style="padding-bottom : 40px;">
+                      <form id="file-upload-form" >
+                      <div class="uploader">
+                      <input id="file-upload" type="file" name="fileUpload" accept="image/*" />
+                      <label for="file-upload" id="file-drag">
+                      <img id="file-image" src="#" alt="Preview" class="hidden">
+                      <div id="start">
+                          <i class="fa fa-download" aria-hidden="true"></i>
+                          <div>Select a file or drag here</div>
+                          <div id="notimage" class="hidden">Please select an image</div>
+                      </div>
+                      <div id="response" class="hidden">
+                          <div id="messages"></div>
+                      </div>
+                      </label>
+                      </div>
+                      <div class="uploadform">
+                          <div class="text5" style="text-align: justify;">Pastikan Unggah SKCK Anda terlihat di bagian depan, jelas, tidak buram, dan pencahayaan yang cukup. Ukuran file tidak boleh lebih dari 10MB. Unggah file dengan format .jpg .jpeg .gif .png .tiff .bmp</div>
+                          <label for="product">Nomor KTP</label>
+                          <input type="text" name="product" required>
+                          <label for="product">Nama Lengkap KTP</label>
+                          <input type="text" name="product" required>
+                          <label for="product">Tanggal Pembuatan KTP</label>
+                          <input type="text" name="product" required>
+                          <label for="product">Tanggal Berakhir KTP</label>
+                          <input type="text" name="product" required>
+                      </div>
+                      <a href="#" class="tombol orange-2" style="padding: 10px 50px; margin-left: 40%; transform: translatex(-50%); margin-bottom: 40px;"> SIMPAN </a> 
+                      </form>
+                      </div>  
+                  </div>
+          
+                  </div>
+                  </div>
              </div>
              <div class="col-4 d-flex flex-column align-items-center">              
-              <div class="text4">NPWP</div>
-             <input type="file">
+              <div class="text4">SKCK</div>
+              <i class="fa fa-image" style="font-size: 80px; padding: 20px;"></i>
+              <button type="button" class="tombol orange-2" data-toggle="modal" data-target="#exampleModalCenter">
+                  UNGGAH
+              </button>
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+                      <span aria-hidden="true">&times;</span>
+                      </button>
+                      </div>
+                      <div class="modal-body" style="padding-bottom : 40px;">
+                      <form id="file-upload-form" >
+                      <div class="uploader">
+                      <input id="file-upload" type="file" name="fileUpload" accept="image/*" />
+                      <label for="file-upload" id="file-drag">
+                      <img id="file-image" src="#" alt="Preview" class="hidden">
+                      <div id="start">
+                          <i class="fa fa-download" aria-hidden="true"></i>
+                          <div>Select a file or drag here</div>
+                          <div id="notimage" class="hidden">Please select an image</div>
+                      </div>
+                      <div id="response" class="hidden">
+                          <div id="messages"></div>
+                      </div>
+                      </label>
+                      </div>
+                      <div class="uploadform">
+                          <div class="text5" style="text-align: justify;">Pastikan Unggah SKCK Anda terlihat di bagian depan, jelas, tidak buram, dan pencahayaan yang cukup. Ukuran file tidak boleh lebih dari 10MB. Unggah file dengan format .jpg .jpeg .gif .png .tiff .bmp</div>
+                          <label for="product">Nomor KTP</label>
+                          <input type="text" name="product" required>
+                          <label for="product">Nama Lengkap KTP</label>
+                          <input type="text" name="product" required>
+                          <label for="product">Tanggal Pembuatan KTP</label>
+                          <input type="text" name="product" required>
+                          <label for="product">Tanggal Berakhir KTP</label>
+                          <input type="text" name="product" required>
+                      </div>
+                      <a href="#" class="tombol orange-2" style="padding: 10px 50px; margin-left: 40%; transform: translatex(-50%); margin-bottom: 40px;"> SIMPAN </a> 
+                      </form>
+                      </div>  
+                  </div>
+          
+                  </div>
+                  </div>
+            </div>
+            <div class="col-4 d-flex flex-column align-items-center">              
+              <div class="text4">Surat Kesehatan</div>
+              <i class="fa fa-image" style="font-size: 80px; padding: 20px;"></i>
              <button class="tombol orange-2">UNGGAH</button>
             </div>
             <div class="col-4 d-flex flex-column align-items-center">              
               <div class="text4">Surat Kesehatan</div>
-             <input type="file">
+              <i class="fa fa-image" style="font-size: 80px; padding: 20px;"></i>
              <button class="tombol orange-2">UNGGAH</button>
             </div>
-            </form>
+          </div>
         </div>
       </div>
+
+
       <div class="row">
         <div class="col-3">
           <div class="ribbon">Unggah Sertifikat</div>
         </div>
         <div class="col-9 formulir">
-            <form action="" class="row">
-             <div class="col-4 d-flex flex-column align-items-center">
-               <div class="text4">Sertifikat kompetensi</div>
-               <input type="file" class="upload-input">
-               <button class="tombol orange-2">UNGGAH</button>
-             </div>
+           <div class="row">
              <div class="col-4 d-flex flex-column align-items-center">
               <div class="text4">Sertifikat akademik</div>
-              <input type="file">
+              <i class="fa fa-image" style="font-size: 80px; padding: 20px;"></i>
               <button class="tombol orange-2">UNGGAH</button>
              </div>
              <div class="col-4 d-flex flex-column align-items-center">              
               <div class="text4">Sertifikat bahasa</div>
-             <input type="file">
+              <i class="fa fa-image" style="font-size: 80px; padding: 20px;"></i>
              <button class="tombol orange-2">UNGGAH</button>
             </div>
             <div class="col-4 d-flex flex-column align-items-center">              
-              <div class="text4">Sertifikat p3k</div>
-             <input type="file">
+            <div class="text4">Sertifikat p3k</div>
+              <i class="fa fa-image" style="font-size: 80px; padding: 20px;"></i>
              <button class="tombol orange-2">UNGGAH</button>
             </div>
-            </form>
+          </div>
         </div>
       </div>
     </div>
-
   </section>
   <!-- ======= Footer ======= -->
   <footer id="footer" class="section-bg">
@@ -241,6 +325,7 @@
   </footer><!-- End  Footer -->
 
 <!-- Vendor JS Files -->
+<script src="assets/js/function.js"></script>
 <script src="assets/vendor/jquery/jquery.min.js"></script>
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
