@@ -1,7 +1,7 @@
 #hero {
   width: 100%;
-  margin-top: 150px;
-  margin-bottom: 120px;
+  margin-top: 200px;
+  margin-bottom: 10px;
   position: relative;
   background: #fff;
 }
@@ -94,6 +94,12 @@
     transition: all 100ms ease-in-out;
   }
   
+  .price{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+    color: #396997;
+  }
   
   .submit:hover {
     background: black;
@@ -111,7 +117,10 @@
     transition: all 0.3s ease-in-out;
     text-align: center;
   }
-  
+  hr.tittle-line{
+    border: 1px solid #688199;
+    width: 100px;
+  }
   #services .box:hover {
     transform: scale(1.1);
   }
@@ -147,8 +156,13 @@
 
   #product .kompetensi, #product .rating{
       font-size: small;
+      color: #959595;
+      line-height: 25px;
   }
   
+  .fa-star{
+    color: #396997;
+  }
   #product .btn{
     width: 60%;
     font-size: small;
@@ -197,7 +211,6 @@
 
   #promotion2 .desc{
   padding: 10px 0px;
-  padding-right: 100px;
   }
   
   
