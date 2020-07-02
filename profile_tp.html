@@ -29,6 +29,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/profile_tp.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -62,10 +63,49 @@
 
 <section id="name">
     <div class="container">
-    <div class="text2">Anna Morgan</div>
-    <div class="textp">Jakarta, Indonesia</div>
-    <div class="text5"><strong><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 4,8/5</strong></div>
-    <img src="assets/img/profile.png" alt="" style="width: 100%;">
+      <div class="text5"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
+      <div class="text2">Anna Morgan</div>
+      <div class="text5">Jakarta, Indonesia</div>
+      <div class="grid-container">
+        <div class="img1">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner ">
+              <div class="item active">
+                <img src="assets/img/header.png" alt="Los Angeles" style="height: 450px; width: auto;">
+              </div>
+        
+              <div class="item">
+                <img src="assets/img/header.png" alt="Chicago" style="height: 450px;  width: auto;">
+              </div>
+            
+              <div class="item">
+                <img src="assets/img/header.png" alt="New york" style="height: 450px;">
+              </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="img2">
+          <img src="assets/img/header.png" alt="" style="height: 220px; width: 100%;" >
+        </div>
+        <div class="img3">
+          <img src="assets/img/header.png" alt="" style="height: 220px; width: 100%;">
+        </div>      
+      </div>
+
     <div class="imgkecil">
         <img src="assets/img/miniprofile.png" alt="">
         <img src="assets/img/miniprofile.png" alt="">
@@ -241,7 +281,8 @@
 <script src="assets/vendor/wow/wow.min.js"></script>
 <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
 <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
 
