@@ -1,0 +1,45 @@
+#about{
+    background-image: url(../img/aboutus.png);
+    margin-top: 100px;
+}
+
+#about .text4{
+    color: white;
+    text-align: center;
+    padding: 150px 80px;
+    font-size: 26px;
+}
+
+#kisah img{
+    margin: 20px;
+    border-radius: 8px;
+}
+
+#kisah hr{
+    border: solid thin #007DFE;
+    width: 100px;
+    margin: 0;
+    margin: 10px 0px;
+
+}
+
+#kisah .textp{
+    line-height: 22px;
+
+    color: #363636;
+}
+#kisah{
+    background: #F7F8FE;
+}
+
+.misi .img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.misi .text2{
+    font-size: 20px;
+    color: #363636;
+}
+

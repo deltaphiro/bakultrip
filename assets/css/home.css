@@ -117,10 +117,7 @@
     transition: all 0.3s ease-in-out;
     text-align: center;
   }
-  hr.tittle-line{
-    border: 1px solid #688199;
-    width: 100px;
-  }
+
   #services .box:hover {
     transform: scale(1.1);
   }
@@ -168,38 +165,6 @@
     font-size: small;
   }
 
-  .product-header{
-    margin-bottom: 50px;
-  }
-  
-  .product-header .text3 {
-    color: #363636;
-    font-size: 32px;
-    line-height: 40px;
-    font-weight: 700;
-    text-align: center;
-    position: relative;
-  }
-  
-
-  .product-header .textp {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 700px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    color: #acacac;
-    padding-top: 10px;
-    line-height: 24px;
-    margin-bottom: 24px;
-  }
-  
-  @media (max-width: 767px) {
-    .product-header .textp {
-      width: 100%;
-    }
-  }
   
   #promotion2{
     padding: 50px 100px;
