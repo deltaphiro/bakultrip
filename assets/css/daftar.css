@@ -1,3 +1,66 @@
+.sidebar img{
+  height: 50px;
+  width: 50px;
+  border-radius: 4px;
+}
+
+.sidebar{
+  margin-right: 20px;
+  height: 100%;
+  
+}
+.nama{
+  font-size: 16px;
+  color: #757272;
+  font-weight: lighter;
+}
+.point{
+  font-size: 16px;
+  color: rgb(0, 140, 255);
+  font-weight: lighter;
+}
+
+
+.menu {
+  width: 100%;
+  overflow: auto;
+}
+
+.menu i{
+  margin-right: 10px ;
+}
+.menu a {
+  float: none;
+  display: block;
+  padding: 18px 0px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: normal;
+  color: #959595;
+}
+
+.menu a:hover {
+  border-left: #396997 solid;
+  color: #396997;
+  
+}
+
+::placeholder{
+  font-size: small;
+}
+
+@media screen and (max-width: 500px) {
+  .menu a {
+    float: left;
+  }
+}
+
+.formulir .text4{
+  
+color: #396997;
+
+}
+
 .notification{
     margin-top: 100px;
     background-color: #FCF8E3;

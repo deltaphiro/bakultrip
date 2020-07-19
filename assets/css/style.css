@@ -125,6 +125,13 @@ a:hover, a:active, a:focus {
   color: black;
   border-radius: 4px;
 }
+  
+.main-nav img{
+  height: 30px;
+  border-radius: 50%;
+  width: 30px;
+  padding: 0px !important;
+}
 
 .main-pages {
   margin-top: 60px;
